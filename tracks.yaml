@@ -12,7 +12,7 @@ tracks:
     name: multi_level_map
     patches: null
     release_inc: -1
-    release_tag: v:{version}
+    release_tag: multi_level_map-:{version}
     ros_distro: groovy
     vcs_type: git
     vcs_uri: https://github.com/utexas-bwi/multi_level_map.git
