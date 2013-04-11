@@ -1,0 +1,12 @@
+Source: ros-groovy-multi-level-map-msgs
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-message-generation, ros-groovy-nav-msgs
+Homepage: http://ros.org/wiki/multi_level_map_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-multi-level-map-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-message-runtime, ros-groovy-nav-msgs
+Description: multi_level_map_msgs
