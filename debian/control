@@ -1,0 +1,12 @@
+Source: ros-groovy-multi-level-map-utils
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libboost1.46-all-dev, ros-groovy-catkin
+Homepage: http://ros.org/wiki/multi_level_map_utils
+Standards-Version: 3.9.2
+
+Package: ros-groovy-multi-level-map-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: multi_level_map_utils
