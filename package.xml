@@ -1,6 +1,6 @@
 <package>
   <name>multi_level_map_utils</name>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>multi_level_map_utils</description>
 
   <license>BSD</license>
@@ -12,5 +12,7 @@
   <author>Jake Menashe</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>boost</build_depend>
 
 </package>
