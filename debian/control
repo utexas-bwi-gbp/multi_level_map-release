@@ -1,0 +1,12 @@
+Source: ros-groovy-multi-level-map-server
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/multi_level_map_server
+Standards-Version: 3.9.2
+
+Package: ros-groovy-multi-level-map-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-multi-level-map-msgs, ros-groovy-multi-level-map-utils, ros-groovy-nav-msgs, ros-groovy-roslib, ros-groovy-rospy, ros-groovy-tf
+Description: multi_level_map_server
