@@ -4,12 +4,10 @@ project(multi_level_map_server)
 find_package(catkin REQUIRED)
 
 catkin_package(
-    DEPENDS python-imaging python-yaml
     CATKIN_DEPENDS
     nav_msgs
     multi_level_map_msgs
     multi_level_map_utils
-    roslib
     rospy
     tf
 )
@@ -21,6 +19,8 @@ install(
 install(
   DIRECTORY maps DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
-install(
-  DIRECTORY nodes/ DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+
+catkin_install_python(
+  PROGRAMS nodes/multi_level_map_server
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
