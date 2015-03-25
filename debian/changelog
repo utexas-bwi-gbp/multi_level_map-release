@@ -1,8 +1,0 @@
-ros-hydro-multi-level-map-server (0.1.0-0quantal) quantal; urgency=high
-
-  * cleaned up initial test release of the multi_level_map server now that it is being used within the BWI infrastructure.
-  * Contributors: Jack O'Quin, Piyush Khandelwal, piyushk
-
- -- Piyush Khandelwal <piyushk@gmail.com>  Sat, 14 Mar 2015 05:00:00 -0000
-
-
