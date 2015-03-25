@@ -1,0 +1,12 @@
+Source: ros-hydro-multi-level-map
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://ros.org/wiki/multi_level_map
+Standards-Version: 3.9.2
+
+Package: ros-hydro-multi-level-map
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-multi-level-map-msgs, ros-hydro-multi-level-map-server, ros-hydro-multi-level-map-utils
+Description: Metapackage which pulls in all the other packages required to run a multi level map server and perform multi level map manipulations.
